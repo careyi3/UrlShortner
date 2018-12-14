@@ -31,6 +31,7 @@ wwwroot/js/site.min.js
 *.dbmdl
 *.jfm
 *.db
+*.db-journal
 
 .vscode/
 bin/
