@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<form asp-controller="Home" asp-action="Post" method="post">
+    <input type="text" data-val="true"
+              data-val-required="Url is required"
+              id="Url" name="Url" /><br>
+    <button type="submit">Create</button>
+</form>
